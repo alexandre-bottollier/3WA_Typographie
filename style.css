@@ -1,0 +1,94 @@
+@font-face {
+    font-family: "cardo-bold";
+    src: url("ressources/fonts/cardo/cardo-bold.woff") format("woff");
+}
+
+@font-face {
+    font-family: "cardo-italic";
+    src: url("ressources/fonts/cardo/cardo-italic.woff") format("woff");
+}
+
+@font-face {
+    font-family: "cardo-regular";
+    src: url("ressources/fonts/cardo/cardo-regular.woff") format("woff");
+}
+
+
+@font-face {  
+    font-family: "SpecialElite";
+    src: url("ressources/fonts/specialelite/SpecialElite.woff") format("woff");
+}
+
+body {
+    line-height: 1.5;
+    text-align: justify;
+    max-width: 420px;
+    margin: auto;
+    background: white;
+    font-family: "cardo-regular";
+}
+
+h1 {
+    font-size: 4em;
+    line-height: 2;
+    font-family: "specialelite";
+    text-transform: uppercase;
+    
+}
+
+h2 {
+    font-size: 2.5em;
+    line-height: 1.2;
+    font-family: "specialelite";
+    text-transform: uppercase;
+
+}
+
+h3 {
+    font-size: 1.5em;
+    line-height: 1;
+    font-family: "specialelite";
+}
+
+main p:first-letter {
+    font-family: "specialelite";
+    font-size: 2.5em;
+
+}
+
+blockquote p {
+    font-family: "cardo-italic";
+    font-size: 1.2em;
+    /*font-weight: bold;*/
+}
+
+figcaption {
+    text-align: center;
+}
+
+header :nth-child(3){
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
+}
+
+h2, h3 {
+    text-align: left;
+}
+
+main :last-child{
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
+}
+
+
+
+.pied {
+    font-size:3em;
+    text-align:center;
+}
+
+a {
+    text-decoration: underline dotted;
+    text-underline-offset: 6px;
+    color: black;
+}
